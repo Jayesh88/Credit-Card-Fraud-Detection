@@ -7,7 +7,7 @@ This dataset presents transactions that occurred in two days, where we have 492 
 
 It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
-# About Dataset
+## About Dataset
 When we started performing operations we found that the normal transactions were way more then the fraud transactions. Dataset is said to be balanced if both type of transactions are in 50:50 ratio or atleast 60:40 ratio, but in this case it is not. It is clearly a form of imbalance dataset.
 
 # Dealing with imbalance dataset
