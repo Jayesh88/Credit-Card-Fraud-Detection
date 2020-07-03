@@ -1,7 +1,7 @@
 # Credit Card Fraud Detection
 This dataset can be viewed at https://www.kaggle.com/mlg-ulb/creditcardfraud
 
-# Content 
+## Content 
 The datasets contains transactions made by credit cards in September 2013 by european cardholders.
 This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
@@ -10,7 +10,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 ## About Dataset
 When we started performing operations we found that the normal transactions were way more then the fraud transactions. Dataset is said to be balanced if both type of transactions are in 50:50 ratio or atleast 60:40 ratio, but in this case it is not. It is clearly a form of imbalance dataset.
 
-# Dealing with imbalance dataset
+## Dealing with imbalance dataset
 We have used this techniques in our dataset.To deal with imbalance dataset there are two techniques:
 
   1. Under Sampling: In this form, data is randomly selected from the normal category to match the number of fraud data with a 50:50 percent ratio
