@@ -17,4 +17,4 @@ To deal with imbalance dataset there are two techniques:
   2. Over sampling: In this form, we add more data to Fraud category, we add data in the same dimention . Suppose the ratio of normal vs fraud transaction is 9:1, so we would add 9 times same data for fraud to make it even.
 
 
-There is one library in python which is used to deal with imbalance dataset which is 'imblearn' and it has two functions that deal with different types of handling imbalance dataset technique: nearmiss(for under samping) and SMOTETomake(over sampling)
+There is one library in python which is used to deal with imbalance dataset which is 'imblearn' and it has two functions that deal with different types of handling imbalance dataset technique: nearmiss(for under samping) and SMOTETomake(over sampling).
